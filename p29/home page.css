@@ -1,0 +1,214 @@
+body{
+	background-color:#272525;
+	margin-left: 10px;
+	margin-right: 10px;
+	color:whitesmoke;
+}
+.navbar1{
+	letter-spacing: 3px;
+	background-color: ghostwhite;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 100%;
+	border: 3px solid red;
+}
+a{
+	cursor: pointer;
+}
+.navbar{
+	background-color: ghostwhite;
+	color: white;
+	marin:5px;
+}
+.navtxt{
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+	font-family: arial;
+	margin-left: 20%;
+}
+.navtxt1{
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+	font-family: arial;
+	margin-left: 20%;
+}
+.navtxt2{
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+	font-family: arial;
+	margin-left: 20%;
+}
+
+.headerimg{
+	height: 300px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+.branding{
+	display: flex; /* Use flexbox to create a flexible layout */
+    align-items: center;
+	font-family: "Open Sans", sans-serif ;
+	font-size: 20px;
+	letter-spacing: 4px;
+	word-spacing: 1px;
+}
+.branding img {
+    margin-right: 20px; /* Add space between the image and text */
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+}
+.header{
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.brandtxt{
+	font-family: sans-serif;
+	font-size: 22px;
+}
+.brandimg{
+	height: 300px;
+	width:700px;
+}
+.creative{
+	display: flex; /* Use flexbox to create a flexible layout */
+    align-items: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	letter-spacing: 4px;
+	word-spacing: 1px;
+}
+.creative img {
+    margin-right: 20px;
+    max-width: 100%; 
+}
+.creativeimg{
+	height:400px;
+	width:400px;
+}
+h2{
+	font-family: "Open Sans", sans-serif;
+}
+.socialMR{
+	display: flex; /* Use flexbox to create a flexible layout */
+    align-items: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	letter-spacing: 4px;
+	word-spacing: 1px;
+}
+.socialMR img {
+    margin-right: 20px;
+    max-width: 100%; 
+}
+.socialMRimg{
+	height:400px;
+	width:400px;
+}
+.campaign{
+	display: flex; /* Use flexbox to create a flexible layout */
+    align-items: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	letter-spacing: 4px;
+	word-spacing: 1px;
+}
+.campaignimg{
+	height:500px;
+	width:700px;
+}
+.campaign img{
+	margin-right: 20px;
+    max-width: 100%; 
+}
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    color: #ddd;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #222;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
